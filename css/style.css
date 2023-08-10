@@ -585,9 +585,9 @@ h6 {
   color: #186eb4;
   font-size: 24px;
 }
-#about .about-container .icon-box:hover .icon {
+/* #about .about-container .icon-box:hover .icon {
   background: #186eb4;
-}
+} */
 #about .about-container .icon-box:hover .icon i {
   color: #fff;
 }
@@ -828,7 +828,111 @@ h6 {
 #faq #faq-list a.collapsed i::before {
   content: "\f2c7" !important;
 }
+/* Testimonials Section
+--------------------------------*/
 
+#testimonials {
+  padding: 60px 0;
+}
+
+#testimonials .section-header {
+  margin-bottom: 40px;
+}
+
+#testimonials .testimonial-item .testimonial-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  float: left;
+}
+
+#testimonials .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+}
+
+#testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
+}
+
+#testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 0 15px 140px;
+}
+
+#testimonials .owl-nav,
+#testimonials .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#testimonials .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#testimonials .owl-dot.active {
+  background-color: #1bb1dc;
+}
+/* process section */
+.process_section {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.process_section h2 {
+  text-transform: uppercase;
+}
+
+.process_section h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.process_card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.process_card .process-detail {
+  padding: 2px 25px 35px 25px;
+}
+
+.process_img-container {
+  width: 150px;
+  background-color: #186eb4;
+  height: 150px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #d7daf4;
+  margin: 0 auto 45px auto;
+}
+
+.process_card .process_img-box {
+  width: 75px;
+}
+
+.process_card .process-detail p {
+  margin-top: 15px;
+}
+
+.process_card img {
+  width: 100%;
+}
+
+/* end process section */
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
