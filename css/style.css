@@ -1766,7 +1766,12 @@ h6 {
     align-items: flex-end;
     display: flex;
 }
-
+#header .logo img {
+    padding: 0;
+    padding-left: 0;
+    margin: 1px 0;
+    max-height: 53px;
+}
   #header .logo h1 {
     font-size: 28px;
     padding: 8px 0;
