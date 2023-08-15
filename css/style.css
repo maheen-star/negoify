@@ -1766,6 +1766,9 @@ h6 {
     align-items: flex-end;
     display: flex;
 }
+  .mobile-nav-toggle {
+    top: 16px;
+  }
 #header .logo img {
     padding: 0;
     padding-left: 0;
