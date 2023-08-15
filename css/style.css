@@ -1761,6 +1761,11 @@ h6 {
     align-items: center;
     display: flex;
   }
+  #header.header-scrolled {
+    /* justify-content: center; */
+    align-items: flex-end;
+    display: flex;
+}
 
   #header .logo h1 {
     font-size: 28px;
